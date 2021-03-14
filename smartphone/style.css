@@ -1,73 +1,725 @@
-html, body {     width: 100%;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+.smartphone {
+    position: fixed;
+    left: 40%;
+  }
+  
+  .case {
+    background-color: blue;
+    height: 850px;
+    width: 420px;
+    border-radius: 55px;
+    position: absolute;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: #9b9b9b;
+    border-width: 4px;
+  }
+  
+  .display {
     background-color: white;
-}
-.mobile {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.phone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 331px;
-    height: 616px;
-    background: blue;
-    border-radius: 30px;
-    padding: 10px;
-}
-.phone-mirror {
-    position: relative;
-    width: 328px;
-    height: 600px;
-    background-color: rgb(26, 25, 25);
-    border-radius: 30px;
-}
-.topWrapper {
-    position: relative;
-    width: 130px;
+    height: 650px;
+    width: 380px;
+    margin-left: 19px;
+    margin-top: 75px;
+  }
+  
+  .startbutton {
+    background-color: white;
+    height: 15px;
+    width: 55px;
+    margin-top: 44px;
+    margin-left: 300px;
+    position: absolute;
+  }
+  
+  .mute {
+    background-color: gray;
     height: 20px;
-    margin: 0px auto 0 auto;
-    float: left;
-    left: 30%;
-    background-color: black;
-    border-radius: 0 0 45px 45px;
-}
-.line-rec {
-    position: relative;
-    width: 60px;
-    height: 6px;
-    margin: 0px auto 0 auto;
-    float: left;
-    left: 20%;
-    top: 4px;
-    background-color: rgb(83, 83, 82);
-    border-radius: 5px;
-    border: 1px solid rgb(214, 214, 214);
-}
-.camera {
-    position: relative;
-    float: left;
-    margin-right: 8px;
-    left: 18%;
-    width: 11px;
-    height: 11px;
-    top: 1px;
-    background-color: rgb(83, 83, 82);
-    border-radius: 30px;
-    border: 1px solid rgb(214, 214, 214);
-}
-.buttons {
-    background-color: black;
-    width: 100%;
+    width: 15px;
+    position: absolute;
+    margin-top: 155px;
+    margin-left: -5px;
+  }
+  
+  .loudp {
+    background-color: gray;
     height: 30px;
-    border-radius: 0 0 45px 45px;
-}
+    width: 15px;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: -5px;
+  }
+  
+  .loudn {
+    background-color: gray;
+    height: 30px;
+    width: 15px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -5px;
+  }
+  
+  .homebutton {
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 70px;
+    margin-left: 167px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 4px;
+  }
+  
+  
+  
+  .background {
+    width: 380px;
+    height: 650px;
+    position: absolute;
+  }
+  
+  .speaker {
+    height: 12px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  
+  .camera {
+    height: 15px;
+    width: 15px;
+    background-color: darkblue;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 14px;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
+  }
+  
+  .apptable {
+    height: 100px;
+    width: 380px;
+    background-color: cyan;
+    position: absolute;
+    margin-top: 550px;
+    opacity: .7;
+  }
+  
+  .music {
+    width: 80px;
+    height: 80px;
+    margin-left: 290px;
+    margin-top: 560px;
+    position: absolute;
+  }
+  
+  .music:hover {
+    opacity: .9;
+  }
+  
+  .safari {
+    width: 80px;
+    height: 80px;
+    margin-left: 198px;
+    margin-top: 560px;
+    position: absolute;
+  }
+  
+  .safari:hover {
+    opacity: .9;
+  }
+  
+  .mail {
+    width: 80px;
+    height: 80px;
+    margin-left: 105px;
+    margin-top: 560px;
+    position: absolute;
+  }
+  
+  .mail:hover {
+    opacity: .9;
+  }
+  
+  .phone {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 560px;
+    position: absolute;
+  }
+  
+  .phone:hover {
+    opacity: .9;
+  }
+  
+  .firstpagebutton {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    margin-top: 530px;
+    margin-left: 170px;
+  }
+  
+  .secondpagebutton {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    margin-top: 530px;
+    margin-left: 190px;
+    opacity: .6;
+  }
+  
+  .messager {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 40px;
+    position: absolute;
+  }
+  
+  .messager:hover {
+    opacity: .9;
+  }
+  
+  .calender {
+    width: 80px;
+    height: 80px;
+    margin-left: 105px;
+    margin-top: 40px;
+    position: absolute;
+  }
+  
+  .calender:hover {
+    opacity: .9;
+  }
+  
+  .photos {
+    width: 80px;
+    height: 80px;
+    margin-left: 197px;
+    margin-top: 40px;
+    position: absolute;
+  }
+  
+  .photos:hover {
+    opacity: .9;
+  }
+  
+  .cameraapp {
+    width: 80px;
+    height: 80px;
+    margin-left: 290px;
+    margin-top: 40px;
+    position: absolute;
+  }
+  
+  .cameraapp:hover {
+    opacity: .9;
+  }
+  
+  .weather {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 140px;
+    position: absolute;
+  }
+  
+  .weather:hover {
+    opacity: .9;
+  }
+  
+  .clockapp {
+    width: 80px;
+    height: 80px;
+    margin-left: 105px;
+    margin-top: 140px;
+    position: absolute;
+  }
+  
+  .clockapp:hover {
+    opacity: .9;
+  }
+  
+  .maps {
+    width: 80px;
+    height: 80px;
+    margin-left: 197px;
+    margin-top: 140px;
+    position: absolute;
+  }
+  
+  .maps:hover {
+    opacity: .9;
+  }
+  
+  .video {
+    width: 80px;
+    height: 80px;
+    margin-left: 290px;
+    margin-top: 140px;
+    position: absolute;
+  }
+  
+  .video:hover {
+    opacity: .9;
+  }
+  
+  .notes {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 240px;
+    position: absolute;
+  }
+  
+  .notes:hover {
+    opacity: .9;
+  }
+  
+  .instagram {
+    width: 80px;
+    height: 80px;
+    margin-left: 105px;
+    margin-top: 240px;
+    position: absolute;
+  }
+  
+  .instagram:hover {
+    opacity: .9;
+  }
+  
+  .itunes {
+    width: 80px;
+    height: 80px;
+    margin-left: 197px;
+    margin-top: 240px;
+    position: absolute;
+  }
+  
+  .itunes:hover {
+    opacity: .9;
+  }
+  
+  .appstore {
+    width: 80px;
+    height: 80px;
+    margin-left: 290px;
+    margin-top: 240px;
+    position: absolute;
+  }
+  
+  .appstore:hover {
+    opacity: .9;
+  }
+  
+  .settings {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 340px;
+    position: absolute;
+  }
+  
+  .settings:hover {
+    opacity: .9;
+  }
+  
+  #box {
+    background-color: red;
+    height: 650px;
+    width: 380px;
+    position: absolute;
+    display: none;
+  }
+  
+  #phonewindow {
+    background-color: white;
+    height: 650px;
+    width: 380px;
+    position: absolute;
+    display: none;
+  }
+  
+  .homebutton:hover {
+    background-color: white;
+  }
+  
+  .pad1 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 120px;
+  }
+  
+  .pad1:hover {
+    opacity: .9;
+  }
+  
+  .pad2 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 120px;
+  }
+  
+  .pad2:hover {
+    opacity: .9;
+  }
+  
+  .pad3 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 120px;
+  }
+  
+  .pad3:hover {
+    opacity: .9;
+  }
+  
+  .pad4 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 220px;
+  }
+  
+  .pad4:hover {
+    opacity: .9;
+  }
+  
+  .pad5 {
+  background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 220px;
+  }
+  
+  .pad5:hover {
+    opacity: .9;
+  }
+  
+  .pad6 {
+    background-color:white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 220px;
+  }
+  
+  .pad6:hover {
+    opacity: .9;
+  }
+  
+  .pad7 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 320px;
+  }
+  
+  .pad7:hover {
+    opacity: .9;
+  }
+  
+  .pad8 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 320px;
+  }
+  
+  .pad8:hover {
+    opacity: .9;
+  }
+  
+  .pad9 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 320px;
+  }
+  
+  .pad9:hover {
+    opacity: .9;
+  }
+  
+  .pad10 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 420px;
+  }
+  
+  .pad10:hover {
+    opacity: .9;
+  }
+  
+  .pad11 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 420px;
+  }
+  
+  .pad11:hover {
+    opacity: .9;
+  }
+  
+  .pad12 {
+    background-color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 420px;
+  }
+  
+  .pad12:hover {
+    opacity: .9;
+  }
+  
+  .numb1 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .numb2 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .abc1 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 23px;
+    margin-top: 50px;
+  }
+  
+  .numb3 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .abc2 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 23px;
+    margin-top: 50px;
+  }
+  
+  .numb4 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .abc3 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 23px;
+    margin-top: 50px;
+  }
+  
+  .numb5 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .abc4 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 23px;
+    margin-top: 50px;
+  }
+  
+  .numb6 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .abc5 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 23px;
+    margin-top: 50px;
+  }
+  
+  .numb7 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .abc6 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 14px;
+    margin-top: 50px;
+  }
+  
+  .numb8 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .abc7 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 23px;
+    margin-top: 50px;
+  }
+  
+  .numb9 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .abc8 {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: arial;
+    margin-left: 14px;
+    margin-top: 50px;
+  }
+  
+  .numb10 {
+    position: absolute;
+    color: black;
+    font-size: 60px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 20px;
+  }
+  
+  .numb11 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 10px;
+  }
+  
+  .abc9 {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: arial;
+    margin-left: 34px;
+    margin-top: 50px;
+  }
+  
+  .numb12 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: arial;
+    margin-left: 29px;
+    margin-top: 18px;
+  }
+  
+  .phonebutton {
+    height: 155px;
+    position: absolute;
+    margin-left: 103px;
+    margin-top: 480px;
+  }
+  
+  .phonebutton:hover {
+    opacity: .9;
+  }
+  
