@@ -1,133 +1,116 @@
-smartphone
-<<<<<<< HEAD
 <div class="smartphone">
   
-    <div class="startbutton"></div>
-    
-    <div class="mute"></div>
-    
-    <div class="loudp"></div>
-    
-    <div class="loudn"></div>
-    
-    <div class="case">
-      
-      <div class="camera"> </div>
-      
-      <div class="speaker">
-        <img class="speaker" src="https://abload.de/img/metal-speaker-grill-vcuj5h.jpg"/>
-      </div>
-      
-      <div class="display">
-           <img class="background" src="https://www.nih.gov/sites/default/files/styles/floated_media_breakpoint-large/public/news-events/research-matters/2009/20090914-monkey.jpg?itok=nku7SQfo&timestamp=1434641700"/> 
-    
-        
-        <div class="apptable"> </div>
-        
-        <img class="music" src="https://abload.de/img/musicwokx7.png"/>
-        <img class="safari" src="https://abload.de/img/safarinaj98.png"/>
-        <img class="mail" src="https://abload.de/img/mailomjq1.png"/>
-        <img class="phone" onclick="myFunction3()" src="https://abload.de/img/phone98jty.png"/>
-        
-        
-        <img class="messager" src="https://abload.de/img/messagerlwjrf.png"/> 
-        <img class="calender" src="https://abload.de/img/calender8ekff.png"/>
-        <img class="photos" src="https://abload.de/img/photosbnjt6.png"/>
-        <img class="cameraapp" src="https://abload.de/img/camera5nj6o.png"/>
-        
-        <img class="weather" src="https://abload.de/img/weathercljjs.png"/>
-        <img class="clockapp" src="https://abload.de/img/clockcgkb4.png"/>
-        <img class="maps" src="https://abload.de/img/mapsmwjlr.png"/>
-        <img class="video" src="https://abload.de/img/videoztklz.png"/>
-        
-        <img class="notes" src="https://abload.de/img/notes54jj5.png"/>
-        <img class="instagram" src="https://abload.de/img/instagram1qkvm.png"/>
-        <img class="itunes" src="https://abload.de/img/itunestrj9b.png"/>
-        <img class="appstore" src="https://abload.de/img/appstore0mjcf.png"/>
-          
-        
-       
-        <img class="settings" onclick="myFunction()" src="https://abload.de/img/settingsppkh5.png"/>
-        
-      
-        
-        <div class="firstpagebutton"></div>
-        <div class="secondpagebutton"></div>
-        
-        
-        <div id="phonewindow">
-             <div class="pad1">
-         <a class="numb1">1</a>
-       </div>
-       <div class="pad2">
-         <a class="numb2">2</a>
-         <a class="abc1">A B C</a>
-       </div>
-       <div class="pad3">
-         <a class="numb3">3</a>
-         <a class="abc2">D E F</a>
-       </div>
-       <div class="pad4">
-         <a class="numb4">4</a>
-         <a class="abc3">G H I</a>
-       </div>
-       <div class="pad5">
-         <a class="numb5">5</a>
-         <a class="abc4">J K L</a>
-       </div>
-       <div class="pad6">
-         <a class="numb6">6</a>
-         <a class="abc5">M N O</a>
-       </div>
-       <div class="pad7">
-         <a class="numb7">7</a>
-         <a class="abc6">P Q R S</a>
-       </div>
-       <div class="pad8">
-          <a class="numb8">8</a>
-         <a class="abc7">T U V</a>
-       </div>
-       <div class="pad9">
-          <a class="numb9">9</a>
-         <a class="abc8">W X Y Z</a>
-       </div>
-       <div class="pad10">
-         <a class="numb10">*</a>
-       </div>
-       <div class="pad11">
-         <a class="numb11">0</a>
-         <a class="abc9">+</a>
-       </div>
-       <div class="pad12">
-          <a class="numb12">#</a>
-       </div>
-      
-       <img class="phonebutton" src="https://abload.de/img/phone2vpj5k.png"/>
-=======
-<div class="mobile">
-    <div class="phone">
-       <div class="phone-mirror">
-           <div class="topWrapper">
-               <div class="camera"></div>
-               <div class="line-rec"></div>
-           </div>
-           <img src="" alt="" >
->>>>>>> 9fd47667ee0562599db483b5b68803e01a1c1fdd
-        </div>
-        
-        <div id="box"></div>
-        
-        
-    </div>
-<<<<<<< HEAD
-      
-      <div class="homebutton" value="Refresh Page" onClick="location.href=location.href">
-      </div>
-      
-    </div>
-    
-    </div>
-    
-=======
+<div class="startbutton"></div>
+
+<div class="mute"></div>
+
+<div class="loudp"></div>
+
+<div class="loudn"></div>
+
+<div class="case">
+  
+  <div class="camera"> </div>
+  
+  <div class="speaker">
+    <img class="speaker" src="https://abload.de/img/metal-speaker-grill-vcuj5h.jpg"/>
   </div>
->>>>>>> 9fd47667ee0562599db483b5b68803e01a1c1fdd
+  
+  <div class="display">
+       <img class="background" src="https://www.nih.gov/sites/default/files/styles/floated_media_breakpoint-large/public/news-events/research-matters/2009/20090914-monkey.jpg?itok=nku7SQfo&timestamp=1434641700"/> 
+
+    
+    <div class="apptable"> </div>
+    
+    <img class="music" src="https://abload.de/img/musicwokx7.png"/>
+    <img class="safari" src="https://abload.de/img/safarinaj98.png"/>
+    <img class="mail" src="https://abload.de/img/mailomjq1.png"/>
+    <img class="phone" onclick="myFunction3()" src="https://abload.de/img/phone98jty.png"/>
+    
+    
+    <img class="messager" src="https://abload.de/img/messagerlwjrf.png"/> 
+    <img class="calender" src="https://abload.de/img/calender8ekff.png"/>
+    <img class="photos" src="https://abload.de/img/photosbnjt6.png"/>
+    <img class="cameraapp" src="https://abload.de/img/camera5nj6o.png"/>
+    
+    <img class="weather" src="https://abload.de/img/weathercljjs.png"/>
+    <img class="clockapp" src="https://abload.de/img/clockcgkb4.png"/>
+    <img class="maps" src="https://abload.de/img/mapsmwjlr.png"/>
+    <img class="video" src="https://abload.de/img/videoztklz.png"/>
+    
+    <img class="notes" src="https://abload.de/img/notes54jj5.png"/>
+    <img class="instagram" src="https://abload.de/img/instagram1qkvm.png"/>
+    <img class="itunes" src="https://abload.de/img/itunestrj9b.png"/>
+    <img class="appstore" src="https://abload.de/img/appstore0mjcf.png"/>
+      
+    
+   
+    <img class="settings" onclick="myFunction()" src="https://abload.de/img/settingsppkh5.png"/>
+    
+  
+    
+    <div class="firstpagebutton"></div>
+    <div class="secondpagebutton"></div>
+    
+    
+    <div id="phonewindow">
+         <div class="pad1">
+     <a class="numb1">1</a>
+   </div>
+   <div class="pad2">
+     <a class="numb2">2</a>
+     <a class="abc1">A B C</a>
+   </div>
+   <div class="pad3">
+     <a class="numb3">3</a>
+     <a class="abc2">D E F</a>
+   </div>
+   <div class="pad4">
+     <a class="numb4">4</a>
+     <a class="abc3">G H I</a>
+   </div>
+   <div class="pad5">
+     <a class="numb5">5</a>
+     <a class="abc4">J K L</a>
+   </div>
+   <div class="pad6">
+     <a class="numb6">6</a>
+     <a class="abc5">M N O</a>
+   </div>
+   <div class="pad7">
+     <a class="numb7">7</a>
+     <a class="abc6">P Q R S</a>
+   </div>
+   <div class="pad8">
+      <a class="numb8">8</a>
+     <a class="abc7">T U V</a>
+   </div>
+   <div class="pad9">
+      <a class="numb9">9</a>
+     <a class="abc8">W X Y Z</a>
+   </div>
+   <div class="pad10">
+     <a class="numb10">*</a>
+   </div>
+   <div class="pad11">
+     <a class="numb11">0</a>
+     <a class="abc9">+</a>
+   </div>
+   <div class="pad12">
+      <a class="numb12">#</a>
+   </div>
+  
+   <img class="phonebutton" src="https://abload.de/img/phone2vpj5k.png"/>
+    </div>
+    
+    <div id="box"></div>
+    
+    
+</div>
+  
+  <div class="homebutton" value="Refresh Page" onClick="location.href=location.href">
+  </div>
+  
+</div>
+
+</div>
