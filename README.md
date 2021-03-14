@@ -6,7 +6,7 @@ html
                <div class="camera"></div>
                <div class="line-rec"></div>
            </div>
-           <img src="../images/oppo.png" alt="oppo" height="535" width="312">
+           <img src="https://bit.ly/fcc-relaxing-cat" height="535" width="312">
         </div>
     </div>
   </div>
